@@ -4,9 +4,9 @@ using System.Text;
 
 namespace EmployeeWagePrograms
 {
+     //Calculating Wages for a month
     class UC5
     {
-        //Calculating Wages for a month
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
