@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace EmployeeWagePrograms
-{
+{    //Calculating employee wage using switch case
+    
     class UC4
     {
-        //Calculating employee wage using switch case
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
