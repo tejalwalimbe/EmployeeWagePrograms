@@ -4,9 +4,9 @@ using System.Text;
 
 namespace EmployeeWagePrograms
 {
+     //Calculating wages till number of working days or total working hrs per monthis reached
     class UC6
     {
-        //Calculating wages till number of working days or total working hrs per monthis reached
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
