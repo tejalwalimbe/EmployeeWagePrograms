@@ -4,17 +4,17 @@ using System.Text;
 
 namespace EmployeeWagePrograms
 {
-    class UC6
+    //Compute EmployeeWage Using Class Methods
+    class UC7
     {
-        //Calculating Wages till number of working days or total working hours per month is reached
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
         public const int NUM_OF_WORKING_DAYS = 2;
         public const int MAX_HRS_IN_MONTH = 10;
 
-        static void Main(string[] args)
-        {
+      public static int computeEmpWage()
+        { 
             //variables
             int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
             //Computation
@@ -42,6 +42,11 @@ namespace EmployeeWagePrograms
             }
             int totalEmpWage = totalEmpHrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("Total Emp Wage : " + totalEmpWage);
+            return totalEmpWage;
+        }
+        static void Main(string[]args)
+        {
+            computeEmpWage();
         }
     }
 
